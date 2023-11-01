@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "./navbar.css";
+import "./navbarStyles.css";
 import { navlinks } from "./navLinkItems";
 
 export default function Navbar() {
@@ -21,7 +21,7 @@ export default function Navbar() {
       <ul className={isMenuIconShowing ? "navMenu active" : "navMenu"}>
         {navlinks.map((navLink, index) => (
           <li key={index}>
-            <Link className={navLink.cName}>
+            <Link className={navLink.cName} to={navLink.url}>
               <i class="fa-solid fa-house"></i>
               {navLink.title}
             </Link>
