@@ -2,7 +2,8 @@ import React from "react";
 import Navbar from "../components/navbar/Navbar";
 import Hero from "../components/hero/Hero";
 
-import '../components/hero/heroStyles.css'
+import "../components/hero/heroStyles.css";
+import Destination from "../components/destination/Destination";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         url="/"
         btnClass="show"
       />
+      <Destination />
     </>
   );
 }
