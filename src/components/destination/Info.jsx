@@ -2,13 +2,7 @@ import React from "react";
 
 import "./destinationStyles.css";
 
-export default function DestinationData({
-  cName,
-  heading,
-  text,
-  image1,
-  image2,
-}) {
+export default function Info({ cName, heading, text, image1, image2 }) {
   return (
     <div className={cName}>
       <div className="descText">
@@ -22,4 +16,3 @@ export default function DestinationData({
     </div>
   );
 }
-
