@@ -23,7 +23,7 @@ export default function Navbar() {
         {navlinks.map((navLink, index) => (
           <li key={index}>
             <Link className={navLink.cName} to={navLink.url}>
-              <i class="fa-solid fa-house"></i>
+              <i class={navLink.icon}></i>
               {navLink.title}
             </Link>
           </li>

@@ -42,6 +42,9 @@ h1{
     white-space: nowrap;
 
 }
+.navLinks i{
+    margin-right: 2px;
+}
 
 .navLinks:hover{
     background-color: #01959a;
