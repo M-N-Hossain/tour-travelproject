@@ -1,0 +1,55 @@
+.footer{
+    padding: 4rem 6rem;
+    background: black;
+    color: white;
+}
+.upperRow{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+.upperRow i{
+    color: white;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+.upperRow i:hover{
+    color: #01959a;
+}
+.lowerRow{
+    padding-top: 2rem;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.lowerRow div{
+    display: flex;
+    flex-direction: column;
+}
+
+.lowerRow h4{
+    font-size: 1.3rem;
+    padding: 1rem 0 .8rem 0;
+}
+.lowerRow a{
+    text-decoration: none;
+    color: #fafafa;
+    padding-bottom: 0.4rem;
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width: 850px) {
+    .footer{
+        padding: 4rem 2rem;
+    }
+    .footer i{
+        margin: 1rem 1rem 0 0 ;
+    }
+    .lowerRow div{
+        width: 50%;
+    }
+}

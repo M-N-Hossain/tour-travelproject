@@ -5,6 +5,7 @@ import Hero from "../components/hero/Hero";
 import "../components/hero/heroStyles.css";
 import Destination from "../components/destination/Destination";
 import Trip from "../components/trip/Trip";
+import Footer from "../components/footer/Footer";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       />
       <Destination />
       <Trip />
+      <Footer />
     </>
   );
 }
