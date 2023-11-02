@@ -9,7 +9,9 @@ export default function Navbar() {
   const [isMenuIconShowing, setIsMenuIconShowing] = useState(false);
   return (
     <nav>
-      <img src={Logo} alt="logo" />
+      <Link to="/">
+        <img src={Logo} alt="logo" />
+      </Link>
       <div
         className="burgerMenuIcons"
         onClick={() => {
