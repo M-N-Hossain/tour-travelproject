@@ -3,12 +3,13 @@ import { Link } from "react-router-dom";
 import "./navbarStyles.css";
 import { navlinks } from "./navLinkItems";
 
+import Logo from "../../assets/logo.png";
+
 export default function Navbar() {
   const [isMenuIconShowing, setIsMenuIconShowing] = useState(false);
   return (
     <nav>
-      <h1>Logo</h1>
-
+      <img src={Logo} alt="logo" />
       <div
         className="burgerMenuIcons"
         onClick={() => {
